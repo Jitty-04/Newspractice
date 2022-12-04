@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { DeleteComponent } from './delete/delete.component';
 import { SearchComponent } from './search/search.component';
 import { ViewComponent } from './view/view.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ViewComponent } from './view/view.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
