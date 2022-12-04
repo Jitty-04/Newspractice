@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AddComponent } from './add/add.component';
 import { FormsModule } from '@angular/forms';
 import { DeleteComponent } from './delete/delete.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddComponent,
-    DeleteComponent
+    DeleteComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
